@@ -62,7 +62,7 @@ public class JavaApplication {
 		System.out.println("Felicidades "+name+" has vivido: "+dias+" dias, "
 				+horas+" horas, "+minutos+" minutos, "+segundos+" segundos.");
                 
-                //holaaaa
+                //holaaaa:)
 	}
 
 }
