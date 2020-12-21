@@ -24,9 +24,6 @@ public class JavaApplication {
 	 * @param args the command line arguments
 	 */
 	public static void main(String[] args) {
-		/*Inicializamos las variables necesarias*/
-		//
-		//
 		int age;
 		String name;
 		Scanner sc = new Scanner(System.in);
@@ -35,34 +32,27 @@ public class JavaApplication {
 		int minutos;
 		int segundos;
 
-		/* Preguntamos el nombre del usuario*/
 		// nombre=
 		System.out.print("Buenas, puede introducir su nombre por favor? ");
 		name = sc.next();
-		/* Preguntamos la edad en años usuario*/
 		// edad=
 		do {
 			System.out.print("A continuación inserte su edad: ");
 			age = sc.nextInt();
 		} while (age < 0 || age > 100);
-		/*Aqui calculamos los dias*/
 		//dias=
 		dias=age*365;
-		/*Aqui calculamos las horas*/
 		//horas=
 		horas=dias*24;
-		/*Aqui calculamos los minutos*/
 		//minutos=
-		minutos=horas*60;
-		/*Aqui calculamos los segundos*/
+		minutos=horas*60;		
 		//segundos=
 		segundos=minutos*60;
-		/*Salida por pantalla*/
-		//System.out.println();
+		
 		System.out.println("Felicidades "+name+" has vivido: "+dias+" dias, "
 				+horas+" horas, "+minutos+" minutos, "+segundos+" segundos.");
                 
-                //holaaaa:)locococo
+                
 	}
 
 }
